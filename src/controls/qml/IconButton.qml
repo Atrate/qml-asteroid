@@ -25,7 +25,7 @@ Item {
     signal clicked()
 
     // For free placing
-    readonly property int undefinedEdge: 2 * Qt.BottomEdge
+    readonly property int undefinedEdge: 2 * Qt.RightEdge
     property int edge: Qt.RightEdge
 
     property color iconColor: "#FFFFFFFF"

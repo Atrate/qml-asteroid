@@ -26,7 +26,7 @@ Item {
 
     // For free placing
     readonly property int undefinedEdge: 2 * Qt.BottomEdge
-    property int edge: Qt.BottomEdge
+    property int edge: Qt.RightEdge
 
     property color iconColor: "#FFFFFFFF"
     property color pressedIconColor: "#FFFFFFFF"
